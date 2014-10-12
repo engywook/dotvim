@@ -4,3 +4,6 @@
 [submodule "bundle/ag"]
 	path = bundle/ag
 	url = https://github.com/ervandew/ag.git
+[submodule "bundle/airline"]
+	path = bundle/airline
+	url = https://github.com/bling/vim-airline.git
