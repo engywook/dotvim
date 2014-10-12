@@ -22,3 +22,6 @@
 [submodule "bundle/sneak"]
 	path = bundle/sneak
 	url = https://github.com/justinmk/vim-sneak.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git
