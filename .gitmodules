@@ -19,3 +19,6 @@
 [submodule "bundle/A"]
 	path = bundle/A
 	url = https://github.com/vim-scripts/a.vim.git
+[submodule "bundle/sneak"]
+	path = bundle/sneak
+	url = https://github.com/justinmk/vim-sneak.git
