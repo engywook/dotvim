@@ -1,5 +1,6 @@
 set nocompatible
 call pathogen#infect()
+call pathogen#helptags()
 syntax on
 
 "set ofu=syntaxcomplete#Complete
@@ -44,7 +45,7 @@ set backupdir=~/.vim/backup,/tmp
 map <F4> :NERDTreeToggle<CR>
 
 "change mapleader to , instead of \
-let mapleader=","
+let mapleader="\<Space>"
 
 " Quickly edit/reload the vimrc file
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
@@ -75,3 +76,9 @@ nnoremap <M-j> <C-]>
 nnoremap <M-k> >C-t>
 
 set tags=./tags;/
+
+let g:UltiSnipsSnippetsDir="~/.vim/bundle/snippets/UltiSnips"
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsListSnippets = "<c-tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
