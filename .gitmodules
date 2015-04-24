@@ -46,3 +46,9 @@
 [submodule "bundle/indentGuides"]
 	path = bundle/indentGuides
 	url = https://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "vim-rtags"]
+	path = vim-rtags
+	url = https://github.com/lyuts/vim-rtags.git
+[submodule "bundle/vim-rtags"]
+	path = bundle/vim-rtags
+	url = https://github.com/lyuts/vim-rtags.git
