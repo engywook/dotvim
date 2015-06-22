@@ -82,3 +82,13 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsListSnippets = "<c-tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+
+let g:indent_guides_start_level = 2
+let g:indent_guides_guide_size = 1
+
+"tnoremap <Leader>t <C-\><C-n>
+
+let g:syntastic_cpp_compiler = 'clang++'
+let g:syntastic_cpp_compiler_options = ' -std=c++11'
+
+:set clipboard^=unnamed "adds unnamed to existing values
